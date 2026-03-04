@@ -3,12 +3,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-const authRoutes = require("./routes/authRoutes");
-const eventRoutes = require("./routes/eventRoutes");
-const registrationRoutes = require("./routes/registrationRoutes");
-const judgeRoutes = require("./routes/judgeRoutes");
+const authRoutes = require("./Routes/authRoutes");
+const eventRoutes = require("./Routes/eventRoutes");
+const registrationRoutes = require("./Routes/registrationRoutes");
+const judgeRoutes = require("./Routes/judgeRoutes");
 // const registrationRoutes = require("./routes/registrationRoutes");
-const evaluationRoutes = require("./routes/evaluationRoutes");
+const evaluationRoutes = require("./Routes/evaluationRoutes");
 
 const app = express();
 
